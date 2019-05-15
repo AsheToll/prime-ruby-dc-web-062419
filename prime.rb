@@ -17,7 +17,7 @@ def prime?(int)
 end
 
 def prime?(int)
-  initial_prime = [2, 3, 5, 7]
+  initial_prime = [3, 5, 7]
   
   initial_prime.any? do |number|
     int % number == 0
