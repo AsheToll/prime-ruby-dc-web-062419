@@ -23,9 +23,3 @@ def prime?(int)
     int % number == 0
   end
 end
-words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
- 
-words.any? do |word|
-  word.length > 4
-end
-  #=> true
