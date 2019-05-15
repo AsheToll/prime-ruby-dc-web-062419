@@ -15,3 +15,16 @@ def prime?(int)
     end
   end
 end
+
+def prime?(int)
+  initial_prime = [2, 3, 5, 7]
+  
+  initial_prime.any? do |number|
+    if int 
+
+words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
+ 
+words.any? do |word|
+  word.length > 4
+end
+  #=> true
