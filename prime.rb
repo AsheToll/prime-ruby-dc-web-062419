@@ -21,7 +21,6 @@ def prime?(int)
   
   initial_prime.any? do |number|
     int % number == 0
-    return false
   end
 end
 words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
