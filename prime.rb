@@ -20,8 +20,9 @@ def prime?(int)
   initial_prime = [2, 3, 5, 7]
   
   initial_prime.any? do |number|
-    if int 
-
+    int % number == 0
+  end
+end
 words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
  
 words.any? do |word|
